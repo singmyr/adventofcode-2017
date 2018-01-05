@@ -20,7 +20,9 @@
         "__bit_reference": "cpp",
         "ios": "cpp",
         "chrono": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "list": "cpp"
     },
     "explorer.openEditors.visible": 0
 }
