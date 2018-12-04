@@ -3,7 +3,7 @@
 # --- Day 1: Chronal Calibration --- #
 
 # Run by running:
-# ./main.sh < input.txt
+# ./main.sh
 
 FREQ=0
 
@@ -15,6 +15,6 @@ do
     elif [[ $line == "-"* ]]; then
         FREQ=$((FREQ - NUM))
     fi
-done < "${1:-/dev/stdin}"
+done < input.txt
 
 echo $FREQ
